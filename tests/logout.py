@@ -6,7 +6,7 @@ from res import page
 
 
 class logout(unittest.TestCase):
-    """test class to test the login feature"""
+    """test class to test the logout feature"""
 
     def setUp(self):
         self.driver = webdriver.Firefox()

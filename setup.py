@@ -18,3 +18,5 @@ def install_and_import(package):
 install_and_import('nose')
 install_and_import('selenium')
 install('nose-html-reporting')
+install('lxml')
+install('werkzeug')

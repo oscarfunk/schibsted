@@ -1,6 +1,6 @@
-# Test suite for schibsted login 
+# Test Regression Suite for schibsted login, search vehicules and logout
 
-## Requirements 
+## Assigment: Requirements 
 
 De la página mencionada más abajo, generar tests automatizados para verificar el correcto funcionamiento de:
 
@@ -33,6 +33,13 @@ Para lo anterior utilizar las siguientes credenciales:
 ```html
 python setup.py 
 ```
+
+OR alternative: run pip against the requirement.txt file
+
+```html
+* pip install -r requirements.txt
+```
+
 
 ## Running the suite 
 

@@ -6,7 +6,7 @@ from res import page
 
 
 class search(unittest.TestCase):
-    """test class to test the login feature"""
+    """test class to test the search feature"""
 
     def setUp(self):
         self.driver = webdriver.Firefox()
@@ -44,10 +44,8 @@ class search(unittest.TestCase):
         searching.select_vehicule_year('2009')
         searching.click_search_button()
 
-
-
-    # def tearDown(self):
-    #     self.driver.quit()       
+    def tearDown(self):
+        self.driver.quit()       
 
 if __name__ == "__main__":
     unittest.main()

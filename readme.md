@@ -28,7 +28,7 @@ Para lo anterior utilizar las siguientes credenciales:
 
 ## Installing
 
-* Run setup.py to install dependencies.
+* Run setup.py to install required dependencies (selenium, nose, nose-html-reporting).
 
 ```html
 python setup.py 
@@ -42,3 +42,4 @@ python setup.py
 ```html
 nosetests suite.py --with-html
 ```
+by running this command with the html argument a report is created. 

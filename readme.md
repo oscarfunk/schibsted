@@ -36,4 +36,9 @@ python setup.py
 
 ## Running the suite 
 
-* Run .py to install dependencies.
+* Run suite.py to execute the regression suite. 
+
+
+```html
+nosetests suite.py --with-html
+```

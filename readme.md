@@ -1,4 +1,4 @@
-# Test Regression Suite for schibsted login, search vehicules and logout
+# Test Regression Suite for Schibsted: login, search vehicules and logout features. 
 
 ## Assigment: Requirements 
 

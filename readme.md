@@ -99,3 +99,11 @@ To store regression test execution reports
 Suite.py
 Location ./suite.py
 ```
+
+## FUTURE IMPROVEMENTS - Technical Debt and Refactoring
+
+- Use relative paths for capturing screenshot and create a separate method in a python module. Now is using (C:\\....)
+- Create a method to compare search results retrived via Web Search vs Expected Results (i.e Database values)
+- Use data pool for feeding test cases (Excel, .txt)
+- Improve test reporting capabilities 
+

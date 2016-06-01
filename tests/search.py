@@ -26,6 +26,7 @@ class search(unittest.TestCase):
         searching.enter_search('Ford')
         searching.select_vehicule_year('2014')
         searching.click_search_button()
+        self.driver.save_screenshot('C:\\schibsted\\results\\screenshots\\test_Search_for_Ford_2014.png')
 
     def test_Search_for_Toyota_NoYear(self):
         searching = page.SearchResultsPage(self.driver)

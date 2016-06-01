@@ -26,6 +26,7 @@ class logout(unittest.TestCase):
         logout.click_logout_button()
         Login_Page = page.LoginPage(self.driver)
         assert Login_Page.is_at_homescreen 
+        self.driver.save_screenshot('C:\\schibsted\\results\\screenshots\\test_logout.png')
 
     def tearDown(self):
          self.driver.close()

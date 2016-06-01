@@ -80,3 +80,5 @@ Results
 Location ./results 
 To store regression test execution reports 
 
+Suite.py
+Location ./suite.py

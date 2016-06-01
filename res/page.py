@@ -5,9 +5,6 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.keys import Keys
 
-# class SearchTextElement(BasePageElement):
-#     """This class gets the search text from the specified locator"""
-#     locator = 'q'
 
 class BasePage(object):
     """Base class to initialize the base page that will be called from all pages"""

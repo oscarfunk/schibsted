@@ -1,4 +1,6 @@
-# Test Regression Suite for Schibsted: login, search vehicules and logout features. 
+# Test Regression Suite for Schibsted: 
+  
+  login, search vehicules and logout features. 
 
 ## Assigment: Requirements 
 
@@ -50,3 +52,31 @@ OR alternative: run pip against the requirement.txt file
 nosetests suite.py --with-html
 ```
 by running this command with the html argument a report is created. 
+
+
+## Project structure:
+
+Documentation
+Location	./docs/
+Purpose	Package reference documentation
+
+Test Suite
+Location ./tests
+Regression tests for webpage functionalities 
+
+Setup.py and Requirements File 
+Location	./setup.py   ./requirements 
+Purpose	Development dependencies 
+
+Resources files (Python modules)
+Location ./res
+Python modules for page object patterns and webpage locators. By following this technique a layer of separation between the test code and technical implementation is created.
+
+Libraries
+Location ./lib 
+Python dependencies. 
+
+Results 
+Location ./results 
+To store regression test execution reports 
+

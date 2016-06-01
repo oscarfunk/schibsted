@@ -43,13 +43,13 @@ OR alternative: run pip against the requirement.txt file
 ```
 
 
-## Running the suite 
+## Running the test suite 
 
-* Run suite.py to execute the regression suite. 
+* Run suite.py to execute the regression suite using nosetests utility
 
 
 ```html
-nosetests suite.py --with-html
+nosetests suite.py --with-html --html-report=./results/testreport.html
 ```
 by running this command with the html argument a report is created. 
 
